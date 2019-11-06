@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.0.10deb1
+- http://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Dec 15, 2017 at 09:49 PM
+- Server version: 5.5.57-0ubuntu0.14.04.1
+- PHP Version: 5.5.9-1ubuntu4.22
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="socialnetwork" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="comments">
+                CREATE TABLE `comments` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `post_body` text NOT NULL,
+                  `posted_by` varchar(60) NOT NULL,
+                  `posted_to` varchar(60) NOT NULL,
+                  `date_added` datetime NOT NULL,
+                  `removed` varchar(3) NOT NULL,
+                  `post_id` int(11) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
+            </pma:table>
+            <pma:table name="friend_requests">
+                CREATE TABLE `friend_requests` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `user_to` varchar(50) NOT NULL,
+                  `user_from` varchar(50) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+            </pma:table>
+            <pma:table name="likes">
+                CREATE TABLE `likes` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `username` varchar(60) NOT NULL,
+                  `post_id` int(11) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=latin1;
+            </pma:table>
+            <pma:table name="messages">
+                CREATE TABLE `messages` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `user_to` varchar(50) NOT NULL,
+                  `user_from` varchar(50) NOT NULL,
+                  `body` text NOT NULL,
+                  `date` datetime NOT NULL,
+                  `opened` varchar(3) NOT NULL,
+                  `viewed` varchar(3) NOT NULL,
+                  `deleted` varchar(3) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=latin1;
+            </pma:table>
+            <pma:table name="notifications">
+                CREATE TABLE `notifications` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `user_to` varchar(50) NOT NULL,
+                  `user_from` varchar(50) NOT NULL,
+                  `message` text NOT NULL,
+                  `link` varchar(100) NOT NULL,
+                  `datetime` datetime NOT NULL,
+                  `opened` varchar(3) NOT NULL,
+                  `viewed` varchar(3) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+            </pma:table>
+            <pma:table name="posts">
+                CREATE TABLE `posts` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `body` text NOT NULL,
+                  `added_by` varchar(60) NOT NULL,
+                  `user_to` varchar(60) NOT NULL,
+                  `date_added` datetime NOT NULL,
+                  `user_closed` varchar(3) NOT NULL,
+                  `deleted` varchar(3) NOT NULL,
+                  `likes` int(11) NOT NULL DEFAULT '0',
+                  `image` varchar(500) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=47 DEFAULT CHARSET=latin1;
+            </pma:table>
+            <pma:table name="trends">
+                CREATE TABLE `trends` (
+                  `title` varchar(50) NOT NULL,
+                  `hits` int(11) NOT NULL
+                ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+            </pma:table>
+            <pma:table name="users">
+                CREATE TABLE `users` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `first_name` varchar(25) NOT NULL,
+                  `last_name` varchar(25) NOT NULL,
+                  `username` varchar(100) NOT NULL,
+                  `email` varchar(100) NOT NULL,
+                  `password` varchar(255) NOT NULL,
+                  `signup_date` date NOT NULL,
+                  `profile_pic` varchar(255) NOT NULL,
+                  `num_posts` int(11) NOT NULL,
+                  `num_likes` int(11) NOT NULL,
+                  `user_closed` varchar(3) NOT NULL,
+                  `friend_array` text NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'socialnetwork'
+    -->
+    <database name="socialnetwork">
+        <!-- Table comments -->
+        <table name="comments">
+            <column name="id">9</column>
+            <column name="post_body">Welcome...</column>
+            <column name="posted_by">admin_admin</column>
+            <column name="posted_to">rock_ven</column>
+            <column name="date_added">2017-12-06 14:51:50</column>
+            <column name="removed">no</column>
+            <column name="post_id">20</column>
+        </table>
+        <table name="comments">
+            <column name="id">10</column>
+            <column name="post_body">How's You Doing?
+</column>
+            <column name="posted_by">admin_admin</column>
+            <column name="posted_to">rock_ven</column>
+            <column name="date_added">2017-12-06 14:54:02</column>
+            <column name="removed">no</column>
+            <column name="post_id">20</column>
+        </table>
+        <table name="comments">
+            <column name="id">11</column>
+            <column name="post_body">Yeah...Doing Same..</column>
+            <column name="posted_by">jack_shah_1_2</column>
+            <column name="posted_to">admin_admin</column>
+            <column name="date_added">2017-12-06 14:54:39</column>
+            <column name="removed">no</column>
+            <column name="post_id">10</column>
+        </table>
+        <table name="comments">
+            <column name="id">12</column>
+            <column name="post_body"></column>
+            <column name="posted_by">admin_admin</column>
+            <column name="posted_to">rock_ven</column>
+            <column name="date_added">2017-12-07 00:52:24</column>
+            <column name="removed">no</column>
+            <column name="post_id">20</column>
+        </table>
+        <!-- Table friend_requests -->
+        <table name="friend_requests">
+            <column name="id">1</column>
+            <column name="user_to">admin_admin_1</column>
+            <column name="user_from">admin_admin</column>
+        </table>
+        <!-- Table likes -->
+        <table name="likes">
+            <column name="id">12</column>
+            <column name="username">admin_admin</column>
+            <column name="post_id">20</column>
+        </table>
+        <table name="likes">
+            <column name="id">13</column>
+            <column name="username">rock_ven</column>
+            <column name="post_id">20</column>
+        </table>
+        <table name="likes">
+            <column name="id">14</column>
+            <column name="username">rock_ven</column>
+            <column name="post_id">16</column>
+        </table>
+        <table name="likes">
+            <column name="id">15</column>
+            <column name="username">admin_admin</column>
+            <column name="post_id">16</column>
+        </table>
+        <table name="likes">
+            <column name="id">16</column>
+            <column name="username">admin_admin</column>
+            <column name="post_id">19</column>
+        </table>
+        <table name="likes">
+            <column name="id">17</column>
+            <column name="username">rock_ven</column>
+            <column name="post_id">32</column>
+        </table>
+        <table name="likes">
+            <column name="id">18</column>
+            <column name="username">rock_ven</column>
+            <column name="post_id">17</column>
+        </table>
+        <table name="likes">
+            <column name="id">19</column>
+            <column name="username">rock_ven</column>
+            <column name="post_id">14</column>
+        </table>
+        <!-- Table messages -->
+        <table name="messages">
+            <column name="id">1</column>
+            <column name="user_to">jack_shah</column>
+            <column name="user_from">admin_admin</column>
+            <column name="body">Hi Jack..This is Admin.</column>
+            <column name="date">2017-12-11 23:12:19</column>
+            <column name="opened">yes</column>
+            <column name="viewed">no</column>
+            <column name="deleted">no</column>
+        </table>
+        <table name="messages">
+            <column name="id">2</column>
+            <column name="user_to">jack_shah</column>
+            <column name="user_from">admin_admin</column>
+            <column name="body">djawndj</column>
+            <column name="date">2017-12-11 23:14:02</column>
+            <column name="opened">yes</column>
+            <column name="viewed">no</column>
+            <column name="deleted">no</column>
+        </table>
+        <table name="messages">
+            <column name="id">3</column>
+            <column name="user_to">jack_shah</column>
+            <column name="user_from">admin_admin</column>
+            <column name="body">Who are you?
+</column>
+            <column name="date">2017-12-11 23:14:09</column>
+            <column name="opened">yes</column>
+            <column name="viewed">no</column>
+            <column name="deleted">no</column>
+        </table>
+        <table name="messages">
+            <column name="id">4</column>
+            <column name="user_to">admin_admin</column>
+            <column name="user_from">jack_shah</column>
+            <column name="body">Hi...Admin</column>
+            <column name="date">2017-12-11 23:16:27</column>
+            <column name="opened">yes</column>
+            <column name="viewed">yes</column>
+            <column name="deleted">no</column>
+        </table>
+        <table name="messages">
+            <column name="id">5</column>
+            <column name="user_to">admin_admin</column>
+            <column name="user_from">jack_shah</column>
+            <column name="body">I'm Jack..From London.</column>
+            <column name="date">2017-12-11 23:16:44</column>
+            <column name="opened">yes</column>
+            <column name="viewed">yes</column>
+            <column name="deleted">no</column>
+        </table>
+        <table name="messages">
+            <column name="id">6</column>
+            <column name="user_to">jack_shah</column>
+            <column name="user_from">admin_admin</column>
+            <column name="body">Okay...Now I Got It...</column>
+            <column name="date">2017-12-12 00:17:06</column>
+            <column name="opened">yes</column>
+            <column name="viewed">no</column>
+            <column name="deleted">no</column>
+        </table>
+        <table name="messages">
+            <column name="id">7</column>
+            <column name="user_to">jack_shah</column>
+            <column name="user_from">admin_admin</column>
+            <column name="body">It's Good to See You Around Here...
+</column>
+            <column name="date">2017-12-12 00:17:15</column>
+            <column name="opened">yes</column>
+            <column name="viewed">no</column>
+            <column name="deleted">no</column>
+        </table>
+        <table name="messages">
+            <column name="id">8</column>
+            <column name="user_to">jack_shah</column>
+            <column name="user_from">admin_admin</column>
+            <column name="body">I Hope You're Enjoying This Website.</column>
+            <column name="date">2017-12-12 00:17:26</column>
+            <column name="opened">yes</column>
+            <column name="viewed">no</column>
+            <column name="deleted">no</column>
+        </table>
+        <table name="messages">
+            <column name="id">9</column>
+            <column name="user_to">admin_admin</column>
+            <column name="user_from">jack_shah</column>
+            <column name="body">Yes...I'm Really Enjoying This Website...</column>
+            <column name="date">2017-12-12 00:18:25</column>
+            <column name="opened">yes</column>
+            <column name="viewed">yes</column>
+            <column name="deleted">no</column>
+        </table>
+        <table name="messages">
+            <column name="id">10</column>
+            <column name="user_to">admin_admin</column>
+            <column name="user_from">jack_shah</column>
+            <column name="body">You Created It Very Well.</column>
+            <column name="date">2017-12-12 00:18:37</column>
+            <column name="opened">yes</column>
+            <column name="viewed">yes</column>
+            <column name="deleted">no</column>
+        </table>
+        <table name="messages">
+            <column name="id">11</column>
+            <column name="user_to">admin_admin</column>
+            <column name="user_from">jack_shah</column>
+            <column name="body">How Much Did It Take To Create This Whole Project?</column>
+            <column name="date">2017-12-12 00:18:57</column>
+            <column name="opened">yes</column>
+            <column name="viewed">yes</column>
+            <column name="deleted">no</column>
+        </table>
+        <table name="messages">
+            <column name="id">12</column>
+            <column name="user_to">jack_shah</column>
+            <column name="user_from">admin_admin</column>
+            <column name="body">Well It Takes a Lot of Time...And Still It's Not Complete..I'm Still Working on it...</column>
+            <column name="date">2017-12-12 00:26:12</column>
+            <column name="opened">yes</column>
+            <column name="viewed">no</column>
+            <column name="deleted">no</column>
+        </table>
+        <table name="messages">
+            <column name="id">13</column>
+            <column name="user_to">rock_ven</column>
+            <column name="user_from">admin_admin</column>
+            <column name="body">Hi Bro...Long Time...No See...</column>
+            <column name="date">2017-12-12 01:24:06</column>
+            <column name="opened">yes</column>
+            <column name="viewed">yes</column>
+            <column name="deleted">no</column>
+        </table>
+        <table name="messages">
+            <column name="id">14</column>
+            <column name="user_to">jack_shah</column>
+            <column name="user_from">admin_admin</column>
+            <column name="body">What are you working on right now?</column>
+            <column name="date">2017-12-12 01:26:37</column>
+            <column name="opened">no</column>
+            <column name="viewed">no</column>
+            <column name="deleted">no</column>
+        </table>
+        <table name="messages">
+            <column name="id">15</column>
+            <column name="user_to">rock_ven</column>
+            <column name="user_from">admin_admin</column>
+            <column name="body">Are You There?</column>
+            <column name="date">2017-12-12 23:40:01</column>
+            <column name="opened">yes</column>
+            <column name="viewed">yes</column>
+            <column name="deleted">no</column>
+        </table>
+        <table name="messages">
+            <column name="id">16</column>
+            <column name="user_to">rock_ven</column>
+            <column name="user_from">admin_admin</column>
+            <column name="body">aaaa</column>
+            <column name="date">2017-12-12 23:44:45</column>
+            <column name="opened">yes</column>
+            <column name="viewed">yes</column>
+            <column name="deleted">no</column>
+        </table>
+        <table name="messages">
+            <column name="id">17</column>
+            <column name="user_to">rock_ven</column>
+            <column name="user_from">admin_admin</column>
+            <column name="body">bbbb</column>
+            <column name="date">2017-12-12 23:48:05</column>
+            <column name="opened">yes</column>
+            <column name="viewed">yes</column>
+            <column name="deleted">no</column>
+        </table>
+        <table name="messages">
+            <column name="id">18</column>
+            <column name="user_to">admin_admin</column>
+            <column name="user_from">iron_man</column>
+            <column name="body">Hello Admin...</column>
+            <column name="date">2017-12-13 01:59:57</column>
+            <column name="opened">yes</column>
+            <column name="viewed">yes</column>
+            <column name="deleted">no</column>
+        </table>
+        <table name="messages">
+            <column name="id">19</column>
+            <column name="user_to">admin_admin</column>
+            <column name="user_from">iron_man</column>
+            <column name="body">How Are You?
+I Hope Everything is Well...</column>
+            <column name="date">2017-12-13 02:00:11</column>
+            <column name="opened">yes</column>
+            <column name="viewed">yes</column>
+            <column name="deleted">no</column>
+        </table>
+        <table name="messages">
+            <column name="id">20</column>
+            <column name="user_to">admin_admin</column>
+            <column name="user_from">mighty_hulk</column>
+            <column name="body">Hello...I'm Hulk.</column>
+            <column name="date">2017-12-13 02:06:34</column>
+            <column name="opened">yes</column>
+            <column name="viewed">yes</column>
+            <column name="deleted">no</column>
+        </table>
+        <table name="messages">
+            <column name="id">21</column>
+            <column name="user_to">admin_admin</column>
+            <column name="user_from">admin_admin_1</column>
+            <column name="body">I'm Second Admin...</column>
+            <column name="date">2017-12-13 02:08:55</column>
+            <column name="opened">yes</column>
+            <column name="viewed">yes</column>
+            <column name="deleted">no</column>
+        </table>
+        <table name="messages">
+            <column name="id">24</column>
+            <column name="user_to">geek_developer</column>
+            <column name="user_from">admin_admin</column>
+            <column name="body">Hi</column>
+            <column name="date">2017-12-13 02:41:30</column>
+            <column name="opened">no</column>
+            <column name="viewed">no</column>
+            <column name="deleted">no</column>
+        </table>
+        <table name="messages">
+            <column name="id">25</column>
+            <column name="user_to">admin_admin</column>
+            <column name="user_from">rock_ven</column>
+            <column name="body">Hi Bro...</column>
+            <column name="date">2017-12-13 03:53:36</column>
+            <column name="opened">yes</column>
+            <column name="viewed">yes</column>
+            <column name="deleted">no</column>
+        </table>
+        <!-- Table notifications -->
+        <table name="notifications">
+            <column name="id">1</column>
+            <column name="user_to">rock_ven</column>
+            <column name="user_from">admin_admin</column>
+            <column name="message">Admin Admin Liked Your Post</column>
+            <column name="link">post.php?id=19</column>
+            <column name="datetime">2017-12-13 14:40:04</column>
+            <column name="opened">no</column>
+            <column name="viewed">yes</column>
+        </table>
+        <table name="notifications">
+            <column name="id">2</column>
+            <column name="user_to">admin_admin</column>
+            <column name="user_from">rock_ven</column>
+            <column name="message">Rock Ven Posted on Your Profile</column>
+            <column name="link">post.php?id=34</column>
+            <column name="datetime">2017-12-13 14:40:57</column>
+            <column name="opened">yes</column>
+            <column name="viewed">yes</column>
+        </table>
+        <table name="notifications">
+            <column name="id">3</column>
+            <column name="user_to">admin_admin</column>
+            <column name="user_from">rock_ven</column>
+            <column name="message">Rock Ven Liked Your Post</column>
+            <column name="link">post.php?id=32</column>
+            <column name="datetime">2017-12-13 15:22:47</column>
+            <column name="opened">no</column>
+            <column name="viewed">yes</column>
+        </table>
+        <table name="notifications">
+            <column name="id">4</column>
+            <column name="user_to">admin_admin</column>
+            <column name="user_from">rock_ven</column>
+            <column name="message">Rock Ven Liked Your Post</column>
+            <column name="link">post.php?id=17</column>
+            <column name="datetime">2017-12-13 15:22:51</column>
+            <column name="opened">yes</column>
+            <column name="viewed">yes</column>
+        </table>
+        <table name="notifications">
+            <column name="id">5</column>
+            <column name="user_to">admin_admin</column>
+            <column name="user_from">rock_ven</column>
+            <column name="message">Rock Ven Liked Your Post</column>
+            <column name="link">post.php?id=14</column>
+            <column name="datetime">2017-12-13 15:22:55</column>
+            <column name="opened">no</column>
+            <column name="viewed">yes</column>
+        </table>
+        <!-- Table posts -->
+        <table name="posts">
+            <column name="id">1</column>
+            <column name="body">Hi...First Post...</column>
+            <column name="added_by">admin_admin</column>
+            <column name="user_to">none</column>
+            <column name="date_added">2017-12-04 15:00:45</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">no</column>
+            <column name="likes">0</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">2</column>
+            <column name="body">Second...Second Post...</column>
+            <column name="added_by">admin_admin</column>
+            <column name="user_to">none</column>
+            <column name="date_added">2017-12-04 15:02:37</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">no</column>
+            <column name="likes">0</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">3</column>
+            <column name="body">Hey...Guys
+</column>
+            <column name="added_by">admin_admin</column>
+            <column name="user_to">none</column>
+            <column name="date_added">2017-12-04 23:53:20</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">no</column>
+            <column name="likes">0</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">4</column>
+            <column name="body">Test Infinite Post...So Post as much as you can...</column>
+            <column name="added_by">admin_admin</column>
+            <column name="user_to">none</column>
+            <column name="date_added">2017-12-05 00:14:54</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">no</column>
+            <column name="likes">0</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">5</column>
+            <column name="body">Test Infinite Post...So Post as much as you can...
+Test Infinite Post...So Post as much as you can...
+Test Infinite Post...So Post as much as you can...
+</column>
+            <column name="added_by">admin_admin</column>
+            <column name="user_to">none</column>
+            <column name="date_added">2017-12-05 00:15:00</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">no</column>
+            <column name="likes">0</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">6</column>
+            <column name="body">Test Infinite Post...So Post as much as you can...</column>
+            <column name="added_by">admin_admin</column>
+            <column name="user_to">none</column>
+            <column name="date_added">2017-12-05 00:15:05</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">no</column>
+            <column name="likes">0</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">7</column>
+            <column name="body">Test Infinite Post...So Post as much as you can...
+</column>
+            <column name="added_by">admin_admin</column>
+            <column name="user_to">none</column>
+            <column name="date_added">2017-12-05 00:15:09</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">no</column>
+            <column name="likes">0</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">8</column>
+            <column name="body">Test Infinite Post...So Post as much as you can...</column>
+            <column name="added_by">admin_admin</column>
+            <column name="user_to">none</column>
+            <column name="date_added">2017-12-05 00:15:12</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">no</column>
+            <column name="likes">0</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">9</column>
+            <column name="body">Test Infinite Post...So Post as much as you can...</column>
+            <column name="added_by">admin_admin</column>
+            <column name="user_to">none</column>
+            <column name="date_added">2017-12-05 00:15:15</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">no</column>
+            <column name="likes">0</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">10</column>
+            <column name="body">Test Infinite Post...So Post as much as you can...</column>
+            <column name="added_by">admin_admin</column>
+            <column name="user_to">none</column>
+            <column name="date_added">2017-12-05 00:15:17</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">no</column>
+            <column name="likes">0</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">11</column>
+            <column name="body">Test Infinite Post...So Post as much as you can...</column>
+            <column name="added_by">admin_admin</column>
+            <column name="user_to">none</column>
+            <column name="date_added">2017-12-05 00:15:20</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">no</column>
+            <column name="likes">0</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">12</column>
+            <column name="body">Test Infinite Post...So Post as much as you can...</column>
+            <column name="added_by">admin_admin</column>
+            <column name="user_to">none</column>
+            <column name="date_added">2017-12-05 00:15:23</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">no</column>
+            <column name="likes">0</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">13</column>
+            <column name="body">Test Infinite Post...So Post as much as you can...</column>
+            <column name="added_by">admin_admin</column>
+            <column name="user_to">none</column>
+            <column name="date_added">2017-12-05 00:15:25</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">no</column>
+            <column name="likes">0</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">14</column>
+            <column name="body">Test Infinite Post...So Post as much as you can...</column>
+            <column name="added_by">admin_admin</column>
+            <column name="user_to">none</column>
+            <column name="date_added">2017-12-05 00:15:28</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">no</column>
+            <column name="likes">1</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">15</column>
+            <column name="body">awdjiawdjiawdj</column>
+            <column name="added_by">admin_admin</column>
+            <column name="user_to">none</column>
+            <column name="date_added">2017-12-05 01:33:07</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">no</column>
+            <column name="likes">0</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">16</column>
+            <column name="body">awdjiawdjiawdj</column>
+            <column name="added_by">admin_admin</column>
+            <column name="user_to">none</column>
+            <column name="date_added">2017-12-05 01:33:09</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">no</column>
+            <column name="likes">2</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">17</column>
+            <column name="body">awdjiawdjiawdj</column>
+            <column name="added_by">admin_admin</column>
+            <column name="user_to">none</column>
+            <column name="date_added">2017-12-05 01:33:12</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">no</column>
+            <column name="likes">1</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">18</column>
+            <column name="body">adknawkdn</column>
+            <column name="added_by">admin_admin</column>
+            <column name="user_to">none</column>
+            <column name="date_added">2017-12-05 11:46:48</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">yes</column>
+            <column name="likes">0</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">19</column>
+            <column name="body">One From me Also...
+</column>
+            <column name="added_by">rock_ven</column>
+            <column name="user_to">none</column>
+            <column name="date_added">2017-12-05 13:19:16</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">no</column>
+            <column name="likes">1</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">20</column>
+            <column name="body">Welcome to Socialive
+</column>
+            <column name="added_by">rock_ven</column>
+            <column name="user_to">none</column>
+            <column name="date_added">2017-12-05 13:19:29</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">no</column>
+            <column name="likes">2</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">21</column>
+            <column name="body">Hi
+</column>
+            <column name="added_by">jack_shah</column>
+            <column name="user_to">none</column>
+            <column name="date_added">2017-12-05 13:20:38</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">no</column>
+            <column name="likes">0</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">32</column>
+            <column name="body">adawjdawduh</column>
+            <column name="added_by">admin_admin</column>
+            <column name="user_to">rock_ven</column>
+            <column name="date_added">2017-12-09 14:57:55</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">no</column>
+            <column name="likes">1</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">33</column>
+            <column name="body">Good Job...You've Got Uptill Here...</column>
+            <column name="added_by">admin_admin</column>
+            <column name="user_to">none</column>
+            <column name="date_added">2017-12-10 03:28:34</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">yes</column>
+            <column name="likes">0</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">34</column>
+            <column name="body">Thanks...You Liked My Posts...</column>
+            <column name="added_by">rock_ven</column>
+            <column name="user_to">admin_admin</column>
+            <column name="date_added">2017-12-13 14:40:57</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">no</column>
+            <column name="likes">0</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">35</column>
+            <column name="body">&lt;br&gt;&lt;iframe width='420' height='315' src='https://www.youtube.com/embed/0_ANtEhUHWM'&gt;&lt;/iframe&gt;&lt;br&gt;</column>
+            <column name="added_by">admin_admin</column>
+            <column name="user_to">none</column>
+            <column name="date_added">2017-12-16 00:45:14</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">yes</column>
+            <column name="likes">0</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">36</column>
+            <column name="body">&lt;br&gt;&lt;iframe width='420' height='315' src='https://www.youtube.com/watch?v=HKIIgYFhQlE'&gt;&lt;/iframe&gt;&lt;br&gt;</column>
+            <column name="added_by">admin_admin</column>
+            <column name="user_to">none</column>
+            <column name="date_added">2017-12-16 00:55:59</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">yes</column>
+            <column name="likes">0</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">37</column>
+            <column name="body">&lt;br&gt;&lt;iframe width='420' height='315' src='https://www.youtube.com/embed/HKIIgYFhQlE'&gt;&lt;/iframe&gt;&lt;br&gt;</column>
+            <column name="added_by">admin_admin</column>
+            <column name="user_to">none</column>
+            <column name="date_added">2017-12-16 00:57:22</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">yes</column>
+            <column name="likes">0</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">38</column>
+            <column name="body">&lt;br&gt;&lt;iframe width='420' height='315' src='https://www.youtube.com/embed/HKIIgYFhQlE'&gt;&lt;/iframe&gt;&lt;br&gt;</column>
+            <column name="added_by">admin_admin</column>
+            <column name="user_to">none</column>
+            <column name="date_added">2017-12-16 00:58:36</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">yes</column>
+            <column name="likes">0</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">44</column>
+            <column name="body">Good Night Everyone.</column>
+            <column name="added_by">admin_admin</column>
+            <column name="user_to">none</column>
+            <column name="date_added">2017-12-16 02:21:17</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">yes</column>
+            <column name="likes">0</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">45</column>
+            <column name="body">Good Night Goku.</column>
+            <column name="added_by">rock_ven</column>
+            <column name="user_to">none</column>
+            <column name="date_added">2017-12-16 02:24:13</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">yes</column>
+            <column name="likes">0</column>
+            <column name="image"></column>
+        </table>
+        <table name="posts">
+            <column name="id">46</column>
+            <column name="body">Where are You on The Steps?</column>
+            <column name="added_by">admin_admin</column>
+            <column name="user_to">none</column>
+            <column name="date_added">2017-12-16 03:06:29</column>
+            <column name="user_closed">no</column>
+            <column name="deleted">no</column>
+            <column name="likes">0</column>
+            <column name="image">assets/images/posts/5a34405d1475422555260_1791086170919825_3913863383550551677_n.jpg</column>
+        </table>
+        <!-- Table trends -->
+        <table name="trends">
+            <column name="title">Hello</column>
+            <column name="hits">2</column>
+        </table>
+        <table name="trends">
+            <column name="title">GuysLooking</column>
+            <column name="hits">2</column>
+        </table>
+        <table name="trends">
+            <column name="title">Forward</column>
+            <column name="hits">2</column>
+        </table>
+        <table name="trends">
+            <column name="title">Watch</column>
+            <column name="hits">2</column>
+        </table>
+        <table name="trends">
+            <column name="title">Tomorrows</column>
+            <column name="hits">2</column>
+        </table>
+        <table name="trends">
+            <column name="title">Match</column>
+            <column name="hits">2</column>
+        </table>
+        <table name="trends">
+            <column name="title">Night</column>
+            <column name="hits">4</column>
+        </table>
+        <table name="trends">
+            <column name="title">Goku</column>
+            <column name="hits">1</column>
+        </table>
+        <table name="trends">
+            <column name="title">Steps</column>
+            <column name="hits">1</column>
+        </table>
+        <!-- Table users -->
+        <table name="users">
+            <column name="id">1</column>
+            <column name="first_name">Jack</column>
+            <column name="last_name">Shah</column>
+            <column name="username">jackShah</column>
+            <column name="email">jack@gmail.com</column>
+            <column name="password">1234</column>
+            <column name="signup_date">2017-12-06</column>
+            <column name="profile_pic">1</column>
+            <column name="num_posts">1</column>
+            <column name="num_likes">1</column>
+            <column name="user_closed">no</column>
+            <column name="friend_array"></column>
+        </table>
+        <table name="users">
+            <column name="id">2</column>
+            <column name="first_name">Jack</column>
+            <column name="last_name">Shah</column>
+            <column name="username">jack_shah</column>
+            <column name="email">jack1@gmail.com</column>
+            <column name="password">dc647eb65e6711e155375218212b3964</column>
+            <column name="signup_date">2017-12-03</column>
+            <column name="profile_pic">assets/images/profile_pics/defaults/head_emerald.png</column>
+            <column name="num_posts">1</column>
+            <column name="num_likes">0</column>
+            <column name="user_closed">no</column>
+            <column name="friend_array">,</column>
+        </table>
+        <table name="users">
+            <column name="id">3</column>
+            <column name="first_name">Jack</column>
+            <column name="last_name">Shah</column>
+            <column name="username">jack_shah_1</column>
+            <column name="email">Rockben@gmail.com</column>
+            <column name="password">2ac9cb7dc02b3c0083eb70898e549b63</column>
+            <column name="signup_date">2017-12-03</column>
+            <column name="profile_pic">assets/images/profile_pics/defaults/head_emerald.png</column>
+            <column name="num_posts">0</column>
+            <column name="num_likes">0</column>
+            <column name="user_closed">no</column>
+            <column name="friend_array">,admin_admin,</column>
+        </table>
+        <table name="users">
+            <column name="id">4</column>
+            <column name="first_name">Jack</column>
+            <column name="last_name">Shah</column>
+            <column name="username">jack_shah_1_2</column>
+            <column name="email">mouse@gmail.com</column>
+            <column name="password">5f4dcc3b5aa765d61d8327deb882cf99</column>
+            <column name="signup_date">2017-12-03</column>
+            <column name="profile_pic">assets/images/profile_pics/defaults/head_deep_blue.png</column>
+            <column name="num_posts">0</column>
+            <column name="num_likes">0</column>
+            <column name="user_closed">no</column>
+            <column name="friend_array">,admin_admin,rock_ven,</column>
+        </table>
+        <table name="users">
+            <column name="id">5</column>
+            <column name="first_name">Rock</column>
+            <column name="last_name">Ven</column>
+            <column name="username">rock_ven</column>
+            <column name="email">ven@ven.com</column>
+            <column name="password">5f4dcc3b5aa765d61d8327deb882cf99</column>
+            <column name="signup_date">2017-12-03</column>
+            <column name="profile_pic">assets/images/profile_pics/defaults/head_deep_blue.png</column>
+            <column name="num_posts">4</column>
+            <column name="num_likes">3</column>
+            <column name="user_closed">no</column>
+            <column name="friend_array">,admin_admin,mighty_hulk,</column>
+        </table>
+        <table name="users">
+            <column name="id">6</column>
+            <column name="first_name">Saiyan</column>
+            <column name="last_name">Goku</column>
+            <column name="username">admin_admin</column>
+            <column name="email">admin@gmail.com</column>
+            <column name="password">5f4dcc3b5aa765d61d8327deb882cf99</column>
+            <column name="signup_date">2017-12-03</column>
+            <column name="profile_pic">assets/images/profile_pics/admin_adminb476db5b38a8700a912ff93f646ffd49n.jpeg</column>
+            <column name="num_posts">43</column>
+            <column name="num_likes">5</column>
+            <column name="user_closed">no</column>
+            <column name="friend_array">,jack_shah_1_2,rock_ven,jack_shah,iron_man,mighty_hulk,geek_developer,</column>
+        </table>
+        <table name="users">
+            <column name="id">7</column>
+            <column name="first_name">Admin2</column>
+            <column name="last_name">Admin</column>
+            <column name="username">admin_admin_1</column>
+            <column name="email">admin2@gmail.com</column>
+            <column name="password">5f4dcc3b5aa765d61d8327deb882cf99</column>
+            <column name="signup_date">2017-12-12</column>
+            <column name="profile_pic">assets/images/profile_pics/defaults/head_deep_blue.png</column>
+            <column name="num_posts">0</column>
+            <column name="num_likes">0</column>
+            <column name="user_closed">no</column>
+            <column name="friend_array">,</column>
+        </table>
+        <table name="users">
+            <column name="id">8</column>
+            <column name="first_name">Iron</column>
+            <column name="last_name">Man</column>
+            <column name="username">iron_man</column>
+            <column name="email">ironman@avengers.com</column>
+            <column name="password">5f4dcc3b5aa765d61d8327deb882cf99</column>
+            <column name="signup_date">2017-12-13</column>
+            <column name="profile_pic">assets/images/profile_pics/defaults/head_emerald.png</column>
+            <column name="num_posts">0</column>
+            <column name="num_likes">0</column>
+            <column name="user_closed">no</column>
+            <column name="friend_array">,admin_admin,</column>
+        </table>
+        <table name="users">
+            <column name="id">9</column>
+            <column name="first_name">Mighty</column>
+            <column name="last_name">Hulk</column>
+            <column name="username">mighty_hulk</column>
+            <column name="email">hulk@avengers.com</column>
+            <column name="password">5f4dcc3b5aa765d61d8327deb882cf99</column>
+            <column name="signup_date">2017-12-13</column>
+            <column name="profile_pic">assets/images/profile_pics/defaults/head_emerald.png</column>
+            <column name="num_posts">0</column>
+            <column name="num_likes">0</column>
+            <column name="user_closed">no</column>
+            <column name="friend_array">,admin_admin,rock_ven,</column>
+        </table>
+        <table name="users">
+            <column name="id">10</column>
+            <column name="first_name">Geek</column>
+            <column name="last_name">Developer</column>
+            <column name="username">geek_developer</column>
+            <column name="email">developer@gmail.com</column>
+            <column name="password">5f4dcc3b5aa765d61d8327deb882cf99</column>
+            <column name="signup_date">2017-12-13</column>
+            <column name="profile_pic">assets/images/profile_pics/defaults/head_emerald.png</column>
+            <column name="num_posts">0</column>
+            <column name="num_likes">0</column>
+            <column name="user_closed">no</column>
+            <column name="friend_array">,admin_admin,</column>
+        </table>
+    </database>
+</pma_xml_export>

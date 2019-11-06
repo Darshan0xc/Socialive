@@ -1,0 +1,574 @@
+body {
+    font-family: "Noto Sans", sans-serif!important;
+    line-height: 23px;
+    background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.top_bar {
+    width: 100%;
+    min-width: 1050px;
+    height: 45px;
+    background-color: #5b9be0;
+    border-bottom: 0.25em solid #4183D7;
+    margin: 0 0 10px 0;
+    display: inline-flex;
+    position: fixed;
+    z-index: 10;
+    color: #fff;
+}
+
+.logo {
+    font-family: "Lobster", "Noto Sans", sans-serif;
+    margin-left: 10px;
+    font-size: 32px;
+    position: relative;
+    top: 9px;
+}
+
+.logo a {
+    color: #fff;
+}
+
+nav {
+    float: right;
+    right: 1px;
+    position: absolute;
+    margin: 10px;
+}
+
+nav a{
+    font-family: "Noto Sans", sans-serif;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 5px;
+}
+
+nav a:hover, .logo:hover {
+    border-bottom: 7px solid #2c3e50;
+    color: #fff;
+}
+
+.wrapper {
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+    padding: 0 10px;
+    width: 75%;
+    min-width: 950px;
+}
+
+.column {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px #d3d3d3;
+    z-index: -1;
+}
+
+.user_details {
+    width: 255px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.user_details_left_right {
+    width: 110px;
+    margin-top: 25px;
+    display: inline-block;
+    position: absolute;
+}
+
+.user_details_left_right a {
+    overflow-wrap: break-word;
+    
+}
+
+.user_details img {
+    height: 125px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.main-column {
+    float: right;
+    width: 70%;
+    z-index: 1;
+    min-height: 170px;
+}
+
+.post_form {
+    width: 100%;
+}
+
+.post_form textarea {
+    width: 82%;
+    height: 60px;
+    border-radius: 5px;
+    margin-right: 5px;
+    border: 1px solid #d3d3d3;
+    padding: 7px;
+    overflow:hidden;
+    resize:none;
+}
+
+.post_form textarea:focus {
+    outline: none;
+}
+
+.post_form input[type="submit"] {
+    width: 11%;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5b9be0;
+    font-family: "Noto Sans", sans-serif;
+    color: #fff;
+    text-shadow: 0.5px 0.5px 0px #d3d3d3;
+    font-size: 100%;
+    position: absolute;
+    outline: 0;
+    margin: 0;
+}
+
+.post_form input[type="submit"]:active {
+    padding: 5px 4px 4px 5px;
+    background-color: #0885d8c9;
+}
+
+.status_post {
+    font-family: "Noto Sans", sans-serif;
+    width: 96%;
+    font-size: 15px;
+    padding: 0px 5px;
+    min-height: 75px;
+    cursor: pointer;
+}
+
+.post_profile_pic {
+    float: left;
+    margin-right: 10px;
+}
+
+.post_profile_pic img {
+    border-radius: 5px;
+}
+
+.newsfeedPostOptions {
+    padding: 0;
+    text-decoration: none;
+    color: #007bff;
+    border: none;
+}
+
+#comment_iframe {
+    margin-top: 10px;
+}
+
+.newsfeedPostOptions iframe {
+    border: 0;
+    padding: 0;
+    height: 22px;
+    width: 120px;
+}
+
+.profile_left {
+    position: relative;
+    top: -10px;
+    width: 17%;
+    max-width: 240px;
+    min-width: 140px;
+    float: left;
+    background-color: #5b9be0;
+    color: #fff;
+    border-right: 5px solid #4183D7;
+    border-bottom: 5px solid #4183D7;
+}
+
+.profile_left img {
+    width: 55%;
+    min-width: 80px;
+    margin: 20px 20px 20px 32px;
+    border: 5px solid #A6C9FD;
+    border-radius: 100px;
+}
+
+.profile_left input[type="submit"] {
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    margin: 7px 0 0 7px;
+    padding-bottom: 5px;
+}
+
+.profile_info {
+    display: list-item;
+    background-color: #4183D7;
+    padding: 10px 0 10px 0;
+    width: 100%;
+}
+
+.profile_info p {
+    margin: 0 0 0 20px;
+    word-wrap: break-word;
+}
+
+.delete_button {
+    height: 22px;
+    width: 22px;
+    border-radius: -5px;
+    color: #ccc;
+    background-color: transparent;
+    float: right;
+    position: relative;
+    right: 15px;
+    border: none;
+    outline: none;
+}
+
+.delete_button:hover {
+    color: #dc3545;
+    cursor: pointer;
+}
+
+.profile-main-column {
+    min-height: 500px;
+    min-width: 675px;
+    float: left;
+    width: 70%;
+    z-index: -1;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.profile_info_bottom {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.comment_section {
+    display: block;
+}
+
+#message_textarea {
+    width: 80%;
+    margin-right: 8px;
+    border-radius: 5px;
+    border: 1px solid #d3d3d3;
+    font-size: 14px;
+    padding: 5px;
+}
+
+#message_textarea:focus {
+    outline: none;
+}
+        
+#message_submit {
+    height: 55px;
+    width: 13%;
+    margin: 0;
+    position: absolute;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    text-shadow: 0.3px 0.5px 0px #d3d3d3;
+    font-size: 100%;
+}
+
+.message {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: inline-block;
+    color: #fff;
+}
+
+.message#blue {
+    background-color: #3498db;
+    border-color: #2980b9;
+    float: right;
+    margin-bottom: 5px;
+    max-width: 70%;
+}
+
+.message#green {
+    background-color: #5CB85C;
+    border-color: #27ae60;
+    float: left;
+    margin-bottom: 5px;
+    max-width: 70%;
+}
+
+.loaded_messages {
+    height: 65%;
+    min-height: 300px;
+    max-height: 400px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    
+}
+
+.loaded_conversations {
+    max-height: 216px;
+    overflow: scroll;
+}
+
+.user_details hr {
+    margin: 0 0 5px 0;
+}
+
+.user_found_messages {
+    border-bottom: 1px solid #d3d3d3;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.user_found_messages:hover {
+    background-color: #d3d3d3;
+}
+
+.user_found_messages img {
+    height: 35px;
+    float: left;
+    margin: 5px 5px 5px 6px;
+}
+
+#grey {
+    color: #8c8c8c;
+}
+
+.resultDisplay {
+    padding: 5px 5px 5px 5px;
+    height: 80px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.resultDisplay:hover {
+    background-color: #ebebeb;
+}
+
+.resultDisplay a {
+    float: none;
+}
+
+.liveSearchProfilePic img {
+    height: 50px;
+    border-radius: 25px;
+    margin: 5px 12px 0 2px;
+    float: left;
+}
+
+.liveSearchText {
+    background-color: transparent;
+    color: #4095ff;
+}
+
+.liveSearchText p {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.dropdown_data_window {
+    color: #000!important;
+    background-color: #fff;
+    border-radius: 0 0 8px 8px;
+    border-top: none;
+    width: 300px;
+    position: absolute;
+    right: 10px;
+    top: 45px;
+    overflow-y: scroll;
+}
+
+.notification-badge {
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #2ecc71;
+    border-radius: 10px;
+    position: absolute;
+    top: 2px;
+    left: 15px;
+}
+
+.resultDisplayNotification {
+    height: auto;
+    color: #1485BD;
+}
+
+.resultDisplayNotification img {
+    height: 40px;
+    border-radius: 5px;
+    margin: 1px 12px 5px 2px;
+    float: left;
+}
+
+.timestamp_smaller {
+    font-size: 85%;
+    margin: 0;
+}
+
+.search {
+    margin: 8px 0 0 8%;
+}
+
+.search #search_text_input {
+    border: 1px solid #E5E5E5;
+    padding-left: 10px;
+    font-size: 85%;
+    float: left;
+    height: 26px;
+    outline: 0;
+    width: 100px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.button_holder {
+    color: #000;
+    background-color: #F1F1F1;
+    border: 1px solid #e5e5e5;
+    cursor: pointer;
+    float: left;
+    height: 26px;
+    text-align: center;
+    width: 50px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.button-holder i {
+    margin-bottom: 1px;
+}
+
+.search_results {
+    background-color: #fff;
+    border: 1px solid #DADADA;
+    border-bottom: none;
+    border-top: none;
+    margin-top: 26px;
+}
+
+.search_results_footer {
+    padding: 4px 4px 0px 3px;
+    height: 30px;
+    border: 1px solid #DADADA;
+    border-top: none;
+    background-color: #5b9be0;
+    text-align: center;
+}
+
+.search_results_footer a {
+    color: #fff;
+}
+
+.search_result {
+    padding: 10px;
+    height: 100px;
+}
+
+.searchPageFriendButtons {
+    float: right;
+}
+
+.result_profile_pic {
+    float: left;
+    margin-right: 10px;
+}
+
+#search_hr {
+    margin-bottom: 0px;
+}
+
+#small_profile_pic {
+    height: 55px;
+    margin: 1px 12px 0 2px;
+    float: left;
+}
+
+.settings_input {
+    border: 1px solid #ccc;
+    height: 34px;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+
+.label_fix {
+    display: inline-block;
+    width: 27%;
+}
+
+.postedImage img {
+    max-height: 300px;
+    max-width: 100%;
+    display: block;
+    margin: 10px auto;
+}
+
+/*
+======================================
+=======Browser Specific Styles========
+======================================*/
+/*Styles applies only mozilla firefox browser*/
+/*@supports (-moz-appearance:none), @supports (-ms-ime-align: auto) {*/
+    
+/*}*/
+
+@-moz-document url-prefix() { 
+    .newsfeedPostOptions iframe { 
+        height: 32px;
+    }
+    
+    .user_details {
+        /*Refer index.php page. Find Class named user_details*/
+        width: 260px;
+    }
+}
+
+/*Styles applies only edge browser*/
+@supports (-ms-ime-align: auto) {
+    .user_details {
+        width: 260px;
+    }
+    
+    .newsfeedPostOptions iframe {
+        position: relative;
+        top: 1px;
+        height: 24px;
+    }
+    
+    .profile_left {
+        border-right: ;
+    }
+}
+
+/*Styles applies only chrome browser*/
+/*Below can be used for all versions of chrome, safari, opera, android
+  browsers.
+  
+  [-]Alternative Solution:-
+     @supports (-webkit-appearance:none) {}
+  This Targets only chrome browsers. But it supports small no of browsers.
+  It Supports only Google Chrome:28 and Later, Opera :14 and Later
+*/
+.user_details:not(*:root) {
+}

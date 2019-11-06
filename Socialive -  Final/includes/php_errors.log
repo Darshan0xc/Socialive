@@ -1,0 +1,327 @@
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/classes/User.php on line 8
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   3. User->__construct() /home/ubuntu/workspace/includes/classes/Post.php:71
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   4. mysqli_query() /home/ubuntu/workspace/includes/classes/User.php:8
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/classes/User.php on line 9
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   3. User->__construct() /home/ubuntu/workspace/includes/classes/Post.php:71
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   4. mysqli_fetch_array() /home/ubuntu/workspace/includes/classes/User.php:9
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/classes/User.php on line 25
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   3. User->getFirstAndLastName() /home/ubuntu/workspace/includes/classes/Post.php:72
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   4. mysqli_query() /home/ubuntu/workspace/includes/classes/User.php:25
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/classes/User.php on line 26
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   3. User->getFirstAndLastName() /home/ubuntu/workspace/includes/classes/Post.php:72
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   4. mysqli_fetch_array() /home/ubuntu/workspace/includes/classes/User.php:26
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/classes/User.php on line 8
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   3. User->__construct() /home/ubuntu/workspace/includes/classes/Post.php:71
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   4. mysqli_query() /home/ubuntu/workspace/includes/classes/User.php:8
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/classes/User.php on line 9
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   3. User->__construct() /home/ubuntu/workspace/includes/classes/Post.php:71
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   4. mysqli_fetch_array() /home/ubuntu/workspace/includes/classes/User.php:9
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/classes/User.php on line 25
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   3. User->getFirstAndLastName() /home/ubuntu/workspace/includes/classes/Post.php:72
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   4. mysqli_query() /home/ubuntu/workspace/includes/classes/User.php:25
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/classes/User.php on line 26
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   3. User->getFirstAndLastName() /home/ubuntu/workspace/includes/classes/Post.php:72
+[09-Dec-2017 02:17:17 Asia/Kolkata] PHP   4. mysqli_fetch_array() /home/ubuntu/workspace/includes/classes/User.php:26
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/classes/User.php on line 8
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   3. User->__construct() /home/ubuntu/workspace/includes/classes/Post.php:71
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   4. mysqli_query() /home/ubuntu/workspace/includes/classes/User.php:8
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/classes/User.php on line 9
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   3. User->__construct() /home/ubuntu/workspace/includes/classes/Post.php:71
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   4. mysqli_fetch_array() /home/ubuntu/workspace/includes/classes/User.php:9
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/classes/User.php on line 25
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   3. User->getFirstAndLastName() /home/ubuntu/workspace/includes/classes/Post.php:72
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   4. mysqli_query() /home/ubuntu/workspace/includes/classes/User.php:25
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/classes/User.php on line 26
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   3. User->getFirstAndLastName() /home/ubuntu/workspace/includes/classes/Post.php:72
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   4. mysqli_fetch_array() /home/ubuntu/workspace/includes/classes/User.php:26
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/classes/User.php on line 8
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   3. User->__construct() /home/ubuntu/workspace/includes/classes/Post.php:71
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   4. mysqli_query() /home/ubuntu/workspace/includes/classes/User.php:8
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/classes/User.php on line 9
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   3. User->__construct() /home/ubuntu/workspace/includes/classes/Post.php:71
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   4. mysqli_fetch_array() /home/ubuntu/workspace/includes/classes/User.php:9
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/classes/User.php on line 25
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   3. User->getFirstAndLastName() /home/ubuntu/workspace/includes/classes/Post.php:72
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   4. mysqli_query() /home/ubuntu/workspace/includes/classes/User.php:25
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/classes/User.php on line 26
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   3. User->getFirstAndLastName() /home/ubuntu/workspace/includes/classes/Post.php:72
+[09-Dec-2017 02:20:10 Asia/Kolkata] PHP   4. mysqli_fetch_array() /home/ubuntu/workspace/includes/classes/User.php:26
+[09-Dec-2017 02:22:25 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/classes/User.php on line 8
+[09-Dec-2017 02:22:25 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:22:25 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:22:25 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:22:25 Asia/Kolkata] PHP   3. User->__construct() /home/ubuntu/workspace/includes/classes/Post.php:71
+[09-Dec-2017 02:22:25 Asia/Kolkata] PHP   4. mysqli_query() /home/ubuntu/workspace/includes/classes/User.php:8
+[09-Dec-2017 02:22:25 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/classes/User.php on line 9
+[09-Dec-2017 02:22:25 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:22:25 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:22:25 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:22:25 Asia/Kolkata] PHP   3. User->__construct() /home/ubuntu/workspace/includes/classes/Post.php:71
+[09-Dec-2017 02:22:25 Asia/Kolkata] PHP   4. mysqli_fetch_array() /home/ubuntu/workspace/includes/classes/User.php:9
+[09-Dec-2017 02:22:25 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/classes/User.php on line 25
+[09-Dec-2017 02:22:25 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:22:25 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:22:25 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:22:25 Asia/Kolkata] PHP   3. User->getFirstAndLastName() /home/ubuntu/workspace/includes/classes/Post.php:72
+[09-Dec-2017 02:22:25 Asia/Kolkata] PHP   4. mysqli_query() /home/ubuntu/workspace/includes/classes/User.php:25
+[09-Dec-2017 02:22:25 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/classes/User.php on line 26
+[09-Dec-2017 02:22:25 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:22:25 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:22:25 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:22:25 Asia/Kolkata] PHP   3. User->getFirstAndLastName() /home/ubuntu/workspace/includes/classes/Post.php:72
+[09-Dec-2017 02:22:25 Asia/Kolkata] PHP   4. mysqli_fetch_array() /home/ubuntu/workspace/includes/classes/User.php:26
+[09-Dec-2017 02:37:19 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/classes/User.php on line 8
+[09-Dec-2017 02:37:19 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:37:19 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:37:19 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:37:19 Asia/Kolkata] PHP   3. User->__construct() /home/ubuntu/workspace/includes/classes/Post.php:71
+[09-Dec-2017 02:37:19 Asia/Kolkata] PHP   4. mysqli_query() /home/ubuntu/workspace/includes/classes/User.php:8
+[09-Dec-2017 02:37:19 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/classes/User.php on line 9
+[09-Dec-2017 02:37:19 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:37:19 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:37:19 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:37:19 Asia/Kolkata] PHP   3. User->__construct() /home/ubuntu/workspace/includes/classes/Post.php:71
+[09-Dec-2017 02:37:19 Asia/Kolkata] PHP   4. mysqli_fetch_array() /home/ubuntu/workspace/includes/classes/User.php:9
+[09-Dec-2017 02:37:19 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/classes/User.php on line 25
+[09-Dec-2017 02:37:19 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:37:19 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:37:19 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:37:19 Asia/Kolkata] PHP   3. User->getFirstAndLastName() /home/ubuntu/workspace/includes/classes/Post.php:72
+[09-Dec-2017 02:37:19 Asia/Kolkata] PHP   4. mysqli_query() /home/ubuntu/workspace/includes/classes/User.php:25
+[09-Dec-2017 02:37:19 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/classes/User.php on line 26
+[09-Dec-2017 02:37:19 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:37:19 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:37:19 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:37:19 Asia/Kolkata] PHP   3. User->getFirstAndLastName() /home/ubuntu/workspace/includes/classes/Post.php:72
+[09-Dec-2017 02:37:19 Asia/Kolkata] PHP   4. mysqli_fetch_array() /home/ubuntu/workspace/includes/classes/User.php:26
+[09-Dec-2017 02:37:41 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/classes/User.php on line 8
+[09-Dec-2017 02:37:41 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:37:41 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:37:41 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:37:41 Asia/Kolkata] PHP   3. User->__construct() /home/ubuntu/workspace/includes/classes/Post.php:71
+[09-Dec-2017 02:37:41 Asia/Kolkata] PHP   4. mysqli_query() /home/ubuntu/workspace/includes/classes/User.php:8
+[09-Dec-2017 02:37:41 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/classes/User.php on line 9
+[09-Dec-2017 02:37:41 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:37:41 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:37:41 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:37:41 Asia/Kolkata] PHP   3. User->__construct() /home/ubuntu/workspace/includes/classes/Post.php:71
+[09-Dec-2017 02:37:41 Asia/Kolkata] PHP   4. mysqli_fetch_array() /home/ubuntu/workspace/includes/classes/User.php:9
+[09-Dec-2017 02:37:41 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/classes/User.php on line 25
+[09-Dec-2017 02:37:41 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:37:41 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:37:41 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:37:41 Asia/Kolkata] PHP   3. User->getFirstAndLastName() /home/ubuntu/workspace/includes/classes/Post.php:72
+[09-Dec-2017 02:37:41 Asia/Kolkata] PHP   4. mysqli_query() /home/ubuntu/workspace/includes/classes/User.php:25
+[09-Dec-2017 02:37:41 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/classes/User.php on line 26
+[09-Dec-2017 02:37:41 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:37:41 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:37:41 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:37:41 Asia/Kolkata] PHP   3. User->getFirstAndLastName() /home/ubuntu/workspace/includes/classes/Post.php:72
+[09-Dec-2017 02:37:41 Asia/Kolkata] PHP   4. mysqli_fetch_array() /home/ubuntu/workspace/includes/classes/User.php:26
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/classes/User.php on line 8
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   3. User->__construct() /home/ubuntu/workspace/includes/classes/Post.php:71
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   4. mysqli_query() /home/ubuntu/workspace/includes/classes/User.php:8
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/classes/User.php on line 9
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   3. User->__construct() /home/ubuntu/workspace/includes/classes/Post.php:71
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   4. mysqli_fetch_array() /home/ubuntu/workspace/includes/classes/User.php:9
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/classes/User.php on line 25
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   3. User->getFirstAndLastName() /home/ubuntu/workspace/includes/classes/Post.php:72
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   4. mysqli_query() /home/ubuntu/workspace/includes/classes/User.php:25
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/classes/User.php on line 26
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   3. User->getFirstAndLastName() /home/ubuntu/workspace/includes/classes/Post.php:72
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   4. mysqli_fetch_array() /home/ubuntu/workspace/includes/classes/User.php:26
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/classes/User.php on line 8
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   3. User->__construct() /home/ubuntu/workspace/includes/classes/Post.php:71
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   4. mysqli_query() /home/ubuntu/workspace/includes/classes/User.php:8
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/classes/User.php on line 9
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   3. User->__construct() /home/ubuntu/workspace/includes/classes/Post.php:71
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   4. mysqli_fetch_array() /home/ubuntu/workspace/includes/classes/User.php:9
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/classes/User.php on line 25
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   3. User->getFirstAndLastName() /home/ubuntu/workspace/includes/classes/Post.php:72
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   4. mysqli_query() /home/ubuntu/workspace/includes/classes/User.php:25
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/classes/User.php on line 26
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   3. User->getFirstAndLastName() /home/ubuntu/workspace/includes/classes/Post.php:72
+[09-Dec-2017 02:38:02 Asia/Kolkata] PHP   4. mysqli_fetch_array() /home/ubuntu/workspace/includes/classes/User.php:26
+[09-Dec-2017 11:53:38 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/classes/User.php on line 8
+[09-Dec-2017 11:53:38 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 11:53:38 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 11:53:38 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 11:53:38 Asia/Kolkata] PHP   3. User->__construct() /home/ubuntu/workspace/includes/classes/Post.php:73
+[09-Dec-2017 11:53:38 Asia/Kolkata] PHP   4. mysqli_query() /home/ubuntu/workspace/includes/classes/User.php:8
+[09-Dec-2017 11:53:38 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/classes/User.php on line 9
+[09-Dec-2017 11:53:38 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 11:53:38 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 11:53:38 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 11:53:38 Asia/Kolkata] PHP   3. User->__construct() /home/ubuntu/workspace/includes/classes/Post.php:73
+[09-Dec-2017 11:53:38 Asia/Kolkata] PHP   4. mysqli_fetch_array() /home/ubuntu/workspace/includes/classes/User.php:9
+[09-Dec-2017 11:53:38 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/classes/User.php on line 25
+[09-Dec-2017 11:53:38 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 11:53:38 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 11:53:38 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 11:53:38 Asia/Kolkata] PHP   3. User->getFirstAndLastName() /home/ubuntu/workspace/includes/classes/Post.php:74
+[09-Dec-2017 11:53:38 Asia/Kolkata] PHP   4. mysqli_query() /home/ubuntu/workspace/includes/classes/User.php:25
+[09-Dec-2017 11:53:38 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/classes/User.php on line 26
+[09-Dec-2017 11:53:38 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 11:53:38 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:0
+[09-Dec-2017 11:53:38 Asia/Kolkata] PHP   2. Post->loadPostsFriends() /home/ubuntu/workspace/includes/handlers/ajax_load_posts.php:9
+[09-Dec-2017 11:53:38 Asia/Kolkata] PHP   3. User->getFirstAndLastName() /home/ubuntu/workspace/includes/classes/Post.php:74
+[09-Dec-2017 11:53:38 Asia/Kolkata] PHP   4. mysqli_fetch_array() /home/ubuntu/workspace/includes/classes/User.php:26
+[09-Dec-2017 14:31:22 Asia/Kolkata] PHP Catchable fatal error:  Object of class User could not be converted to string in /home/ubuntu/workspace/includes/classes/User.php on line 9
+[09-Dec-2017 14:31:22 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 14:31:22 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_submit_profile_post.php:0
+[09-Dec-2017 14:31:22 Asia/Kolkata] PHP   2. Post->submitPost() /home/ubuntu/workspace/includes/handlers/ajax_submit_profile_post.php:8
+[09-Dec-2017 14:31:22 Asia/Kolkata] PHP   3. User->__construct() /home/ubuntu/workspace/includes/classes/Post.php:28
+[09-Dec-2017 14:34:02 Asia/Kolkata] PHP Catchable fatal error:  Object of class User could not be converted to string in /home/ubuntu/workspace/includes/classes/User.php on line 9
+[09-Dec-2017 14:34:02 Asia/Kolkata] PHP Stack trace:
+[09-Dec-2017 14:34:02 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_submit_profile_post.php:0
+[09-Dec-2017 14:34:02 Asia/Kolkata] PHP   2. Post->submitPost() /home/ubuntu/workspace/includes/handlers/ajax_submit_profile_post.php:8
+[09-Dec-2017 14:34:02 Asia/Kolkata] PHP   3. User->__construct() /home/ubuntu/workspace/includes/classes/Post.php:28
+[12-Dec-2017 13:25:12 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/includes/handlers/ajax_friend_search.php on line 19
+[12-Dec-2017 13:25:12 Asia/Kolkata] PHP Stack trace:
+[12-Dec-2017 13:25:12 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_friend_search.php:0
+[12-Dec-2017 13:25:12 Asia/Kolkata] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/includes/handlers/ajax_friend_search.php:19
+[12-Dec-2017 13:25:12 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/includes/handlers/ajax_friend_search.php on line 19
+[12-Dec-2017 13:25:12 Asia/Kolkata] PHP Stack trace:
+[12-Dec-2017 13:25:12 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_friend_search.php:0
+[12-Dec-2017 13:25:12 Asia/Kolkata] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/includes/handlers/ajax_friend_search.php:19
+[12-Dec-2017 13:25:12 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/includes/handlers/ajax_friend_search.php on line 19
+[12-Dec-2017 13:25:12 Asia/Kolkata] PHP Stack trace:
+[12-Dec-2017 13:25:12 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_friend_search.php:0
+[12-Dec-2017 13:25:12 Asia/Kolkata] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/includes/handlers/ajax_friend_search.php:19
+[12-Dec-2017 13:25:12 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/includes/handlers/ajax_friend_search.php on line 19
+[12-Dec-2017 13:25:12 Asia/Kolkata] PHP Stack trace:
+[12-Dec-2017 13:25:12 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_friend_search.php:0
+[12-Dec-2017 13:25:12 Asia/Kolkata] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/includes/handlers/ajax_friend_search.php:19
+[12-Dec-2017 13:28:22 Asia/Kolkata] PHP Warning:  Missing argument 1 for User::isFriend(), called in /home/ubuntu/workspace/includes/handlers/ajax_friend_search.php on line 29 and defined in /home/ubuntu/workspace/includes/classes/User.php on line 57
+[12-Dec-2017 13:28:22 Asia/Kolkata] PHP Stack trace:
+[12-Dec-2017 13:28:22 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_friend_search.php:0
+[12-Dec-2017 13:28:22 Asia/Kolkata] PHP   2. User->isFriend() /home/ubuntu/workspace/includes/handlers/ajax_friend_search.php:29
+[12-Dec-2017 13:28:22 Asia/Kolkata] PHP Warning:  Missing argument 1 for User::isFriend(), called in /home/ubuntu/workspace/includes/handlers/ajax_friend_search.php on line 29 and defined in /home/ubuntu/workspace/includes/classes/User.php on line 57
+[12-Dec-2017 13:28:22 Asia/Kolkata] PHP Stack trace:
+[12-Dec-2017 13:28:22 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_friend_search.php:0
+[12-Dec-2017 13:28:22 Asia/Kolkata] PHP   2. User->isFriend() /home/ubuntu/workspace/includes/handlers/ajax_friend_search.php:29
+[12-Dec-2017 13:28:22 Asia/Kolkata] PHP Warning:  Missing argument 1 for User::isFriend(), called in /home/ubuntu/workspace/includes/handlers/ajax_friend_search.php on line 29 and defined in /home/ubuntu/workspace/includes/classes/User.php on line 57
+[12-Dec-2017 13:28:22 Asia/Kolkata] PHP Stack trace:
+[12-Dec-2017 13:28:22 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_friend_search.php:0
+[12-Dec-2017 13:28:22 Asia/Kolkata] PHP   2. User->isFriend() /home/ubuntu/workspace/includes/handlers/ajax_friend_search.php:29
+[12-Dec-2017 13:28:23 Asia/Kolkata] PHP Warning:  Missing argument 1 for User::isFriend(), called in /home/ubuntu/workspace/includes/handlers/ajax_friend_search.php on line 29 and defined in /home/ubuntu/workspace/includes/classes/User.php on line 57
+[12-Dec-2017 13:28:23 Asia/Kolkata] PHP Stack trace:
+[12-Dec-2017 13:28:23 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_friend_search.php:0
+[12-Dec-2017 13:28:23 Asia/Kolkata] PHP   2. User->isFriend() /home/ubuntu/workspace/includes/handlers/ajax_friend_search.php:29
+[12-Dec-2017 21:08:59 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/includes/handlers/ajax_friend_search.php on line 29
+[12-Dec-2017 21:09:00 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/includes/handlers/ajax_friend_search.php on line 29
+[12-Dec-2017 21:09:00 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/includes/handlers/ajax_friend_search.php on line 29
+[12-Dec-2017 21:09:00 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/includes/handlers/ajax_friend_search.php on line 29
+[15-Dec-2017 02:08:58 Asia/Kolkata] PHP Warning:  include(../includes/Classes/User.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/handlers/ajax_search.php on line 3
+[15-Dec-2017 02:08:58 Asia/Kolkata] PHP Stack trace:
+[15-Dec-2017 02:08:58 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_search.php:0
+[15-Dec-2017 02:08:58 Asia/Kolkata] PHP Warning:  include(): Failed opening '../includes/Classes/User.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/handlers/ajax_search.php on line 3
+[15-Dec-2017 02:08:58 Asia/Kolkata] PHP Stack trace:
+[15-Dec-2017 02:08:58 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_search.php:0
+[15-Dec-2017 02:08:58 Asia/Kolkata] PHP Fatal error:  Class 'User' not found in /home/ubuntu/workspace/includes/handlers/ajax_search.php on line 28
+[15-Dec-2017 02:08:58 Asia/Kolkata] PHP Stack trace:
+[15-Dec-2017 02:08:58 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_search.php:0
+[15-Dec-2017 02:09:26 Asia/Kolkata] PHP Warning:  include(../../includes/Classes/User.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/handlers/ajax_search.php on line 3
+[15-Dec-2017 02:09:26 Asia/Kolkata] PHP Stack trace:
+[15-Dec-2017 02:09:26 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_search.php:0
+[15-Dec-2017 02:09:26 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../includes/Classes/User.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/handlers/ajax_search.php on line 3
+[15-Dec-2017 02:09:26 Asia/Kolkata] PHP Stack trace:
+[15-Dec-2017 02:09:26 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_search.php:0
+[15-Dec-2017 02:09:26 Asia/Kolkata] PHP Fatal error:  Class 'User' not found in /home/ubuntu/workspace/includes/handlers/ajax_search.php on line 28
+[15-Dec-2017 02:09:26 Asia/Kolkata] PHP Stack trace:
+[15-Dec-2017 02:09:26 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_search.php:0
+[15-Dec-2017 02:09:27 Asia/Kolkata] PHP Warning:  include(../../includes/Classes/User.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/handlers/ajax_search.php on line 3
+[15-Dec-2017 02:09:27 Asia/Kolkata] PHP Stack trace:
+[15-Dec-2017 02:09:27 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_search.php:0
+[15-Dec-2017 02:09:27 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../includes/Classes/User.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/handlers/ajax_search.php on line 3
+[15-Dec-2017 02:09:27 Asia/Kolkata] PHP Stack trace:
+[15-Dec-2017 02:09:27 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_search.php:0
+[15-Dec-2017 02:09:27 Asia/Kolkata] PHP Fatal error:  Class 'User' not found in /home/ubuntu/workspace/includes/handlers/ajax_search.php on line 28
+[15-Dec-2017 02:09:27 Asia/Kolkata] PHP Stack trace:
+[15-Dec-2017 02:09:27 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/includes/handlers/ajax_search.php:0
+[15-Dec-2017 14:17:55 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/includes/handlers/ajax_search.php on line 49
+[15-Dec-2017 14:17:56 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/includes/handlers/ajax_search.php on line 49
+[15-Dec-2017 14:17:56 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/includes/handlers/ajax_search.php on line 49
+[15-Dec-2017 14:17:58 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/includes/handlers/ajax_search.php on line 49
+[15-Dec-2017 14:17:58 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/includes/handlers/ajax_search.php on line 49
+[15-Dec-2017 14:17:59 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/includes/handlers/ajax_search.php on line 49
+[15-Dec-2017 14:17:59 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/includes/handlers/ajax_search.php on line 49
+[15-Dec-2017 14:17:59 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/includes/handlers/ajax_search.php on line 49
+[15-Dec-2017 14:17:59 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/includes/handlers/ajax_search.php on line 49
+[15-Dec-2017 14:17:59 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/includes/handlers/ajax_search.php on line 49
+[15-Dec-2017 14:17:59 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/includes/handlers/ajax_search.php on line 49
+[15-Dec-2017 14:18:00 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/includes/handlers/ajax_search.php on line 49
+[15-Dec-2017 14:18:00 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/includes/handlers/ajax_search.php on line 49
+[15-Dec-2017 14:18:01 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/includes/handlers/ajax_search.php on line 49

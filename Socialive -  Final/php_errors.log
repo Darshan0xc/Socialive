@@ -1,0 +1,16 @@
+[05-Dec-2017 05:55:23 Europe/London] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'social' in /home/ubuntu/workspace/Real - Complete/config/config.php on line 7
+[05-Dec-2017 05:55:23 Europe/London] PHP Stack trace:
+[05-Dec-2017 05:55:23 Europe/London] PHP   1. {main}() /home/ubuntu/workspace/Real - Complete/index.php:0
+[05-Dec-2017 05:55:23 Europe/London] PHP   2. include() /home/ubuntu/workspace/Real - Complete/index.php:2
+[05-Dec-2017 05:55:23 Europe/London] PHP   3. require() /home/ubuntu/workspace/Real - Complete/includes/header.php:2
+[05-Dec-2017 05:55:23 Europe/London] PHP   4. mysqli_connect() /home/ubuntu/workspace/Real - Complete/config/config.php:7
+[05-Dec-2017 05:55:23 Europe/London] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/Real - Complete/includes/header.php on line 7
+[05-Dec-2017 05:55:23 Europe/London] PHP Stack trace:
+[05-Dec-2017 05:55:23 Europe/London] PHP   1. {main}() /home/ubuntu/workspace/Real - Complete/index.php:0
+[05-Dec-2017 05:55:23 Europe/London] PHP   2. include() /home/ubuntu/workspace/Real - Complete/index.php:2
+[05-Dec-2017 05:55:23 Europe/London] PHP   3. mysqli_query() /home/ubuntu/workspace/Real - Complete/includes/header.php:7
+[05-Dec-2017 05:55:23 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/Real - Complete/includes/header.php on line 8
+[05-Dec-2017 05:55:23 Europe/London] PHP Stack trace:
+[05-Dec-2017 05:55:23 Europe/London] PHP   1. {main}() /home/ubuntu/workspace/Real - Complete/index.php:0
+[05-Dec-2017 05:55:23 Europe/London] PHP   2. include() /home/ubuntu/workspace/Real - Complete/index.php:2
+[05-Dec-2017 05:55:23 Europe/London] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Real - Complete/includes/header.php:8
